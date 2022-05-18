@@ -28,9 +28,9 @@ Changes made to the style.css codebase include:
 - Commenting of the style.css file
 - CSS selectors and properties consolidated and organised to follow semantic structure
 
-### Link to URL 
+### Website URL 
 
-[a link](https://mdkgray.github.io/Week_1_Assignment_MDGray/)
+[Click Here](https://mdkgray.github.io/Week_1_Assignment_MDGray/)
 
 ### Screenshots 
 
