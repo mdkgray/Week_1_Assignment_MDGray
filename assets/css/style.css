@@ -1,3 +1,5 @@
+/* ---------- General Styles ---------- */
+
 /* This is the universal selector which applies the CSS properties to all elements on the page */
 * {
     box-sizing: border-box;
@@ -5,12 +7,21 @@
     margin: 0;
 }
 
-/* This applies the CSS property to all elements within in the "main" tag  */
 .main {
     background-color: #d9dcd6;
 }
 
-/* CSS for the content within the section class "header" */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ----------Header styles---------- */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,7 +29,6 @@
     color: #ffffff;
 }
 
-/*  */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -45,14 +55,7 @@
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* ----------Main styles---------- */
 
 /* URL and CSS properites of the image in the section with the "hero" class */
 .hero {
@@ -64,12 +67,13 @@ p {
     background-position: center;
 }
 
-/* CSS for the content section of the page */
+/* CSS styles for figure tags within the section tag classed "content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 .search-engine-optimization, .online-reputation-management, .social-media-marketing   {
     margin-bottom: 20px;
     padding: 50px;
@@ -97,7 +101,6 @@ p {
     float: right;
     margin-left: 25px;
 }
-
 
 /* This applies the particular CSS property to everything in the aside tag with the "benefits" class ID */
 .benefits {
@@ -128,7 +131,8 @@ p {
     max-width: 150px;
 }
 
-/* CSS for the footer section of the page */
+/* ----------Footer styles---------- */
+
 .footer {
     padding: 30px;
     clear: both;
